@@ -288,7 +288,7 @@ int inst_to_binary(
         /*
          * Lab2-1 assignment
          * tip: you may need the function `handle_label_or_imm`
-         * e.g., handle_label_or_imm(arg2, label_table, cmd_no, line_no)
+         * e.g., handle_label_or_imm(line_no, arg2, label_table, number_of_labels)
          */
         warn("Lab2-1 assignment: JAL instruction\n");
         exit(EXIT_FAILURE);
