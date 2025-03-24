@@ -13,7 +13,7 @@ ARCH := $(shell uname -m)
 SRC := $(shell find . -name "*.c")
 TGT := riscv-lc
 LIB := lib$(TGT).a
-OPT := -Wall -std=c99 -Wno-return-type -O3
+OPT := -Wall -std=c99 -Wno-return-type -O3 -no-pie
 
 
 ifeq ($(OS), Darwin)
