@@ -13,7 +13,7 @@
 #define __FUNCTION_BLOCK_H__
 
 
-#include "riscv-lc.h"
+#include "util.h"
 
 
 #endif
