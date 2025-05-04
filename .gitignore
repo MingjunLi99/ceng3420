@@ -56,3 +56,6 @@ dkms.conf
 *.sw*
 tools/report
 
+# Compiler assembler & output bins
+asm
+/*.bin
